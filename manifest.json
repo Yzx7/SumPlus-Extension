@@ -1,0 +1,17 @@
+{
+  "name": "Sumplus",
+  "version": "1.0",
+  "author":"grsydev@gmail.com",
+  "manifest_version": 3,
+  "description":"Añade super funcionalidades a la plataforma SUM (Sistema único de matrícula)",
+  "background": { "service_worker": "background.js" },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": { "default_popup": "/src/popup/index.html" },
+  "web_accessible_resources": [{ "resources": ["*"], "matches": ["\u003call_urls\u003e"] }],
+  "icons": {
+    "16": "/icons/LogoAPP16.png",
+    "48": "/icons/LogoAPP48.png",
+    "64": "/icons/LogoAPP64.png",
+    "128": "/icons/LogoAPP128.png"
+  }
+}
