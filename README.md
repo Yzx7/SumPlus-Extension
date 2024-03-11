@@ -8,7 +8,7 @@ Añade super funcionalidades a la plataforma SUM (Sistema único de matrícula).
  4. Activar el `modo desarrollador`.
  5. Aparecerá el botón `cargar extension sin empaquetar`.
  6. Le ponen el archivo descomprimido y eso sería todo.
-
+![explicacion](https://raw.githubusercontent.com/Yzx7/SumPlus-Extension/main/preview/explicacionextensumplus.gif)
 
 ### Previews
 ![Captura1](https://raw.githubusercontent.com/Yzx7/SumPlus-Extension/main/preview/cap1.png)
