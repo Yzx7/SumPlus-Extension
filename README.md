@@ -1,7 +1,9 @@
 # Sumplus (Extension)
-Añade super funcionalidades a la plataforma SUM (Sistema único de matrícula). En esta versión solamente es un constructor de horarios, si hay tiempo se agregarán más funciones. Está en proceso para añadir al *chrome web store*
+Añade super funcionalidades a la plataforma SUM (Sistema único de matrícula). En esta versión solamente es un constructor de horarios, si hay tiempo se agregarán más funciones. Encuéntralo en [*chrome web store*](https://chromewebstore.google.com/detail/alhakdfdpecinhmfffjchcmmefaojgbn)
 ## Cómo instalarlo
-
+### Mediante *Chrome Web Store*
+- [https://chromewebstore.google.com/detail/alhakdfdpecinhmfffjchcmmefaojgbn]
+### Mediante *Github*:
  1. Hacer click en el botón verde `code` y luego en `Download ZIP`, O tambien haciendo click aquí https://github.com/Yzx7/SumPlus-Extension/archive/refs/heads/main.zip
  2. Descomprimen el archivo ZIP.
  3. Ir a `administrar extensiones` en tu navegador.
