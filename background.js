@@ -38,6 +38,12 @@ chrome.runtime.onMessage.addListener( function (message, sender, sendResponse) {
       sendResponse({ message: "ok", ok: true });
     });
   }
+  if (message.msg === "newPreMatricula") {
+    chrome.storage.local.set({ preMatricula: message.data }).then(()=> {
+      sendResponse({ message: "ok", ok: true });
+    });
+  }
+
   let url = chrome.runtime.getURL("/src/home/index.html");
   chrome.tabs.create({ url });
   return true;
